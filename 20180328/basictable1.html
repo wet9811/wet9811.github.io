@@ -1,0 +1,53 @@
+<!doctype html>	<!-- basic Table.html-->
+<html lang="ko">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style> table, tr, th, td{
+border: 1px solid black; border-collapse:collapse;
+}
+p#user_id_1 {color:red;}
+p#user_id_2 {color:blue;}
+p#user_id_3 {color:green;}
+p#user_id_4 {color:pink;}
+p#user_id_5 {color:yellow;}
+p#user_id_6 {color:purple;}
+p#user_id_7 {color:orange;}
+p#user_id_8 {color:brown;}
+p#user_id_9 {color:skyblue;}
+</style> <!-- border-collapse:collapse 단선으로,반대는 separate -->
+<title>HTML5테이블 테스트 실습</title>
+</head>
+<body class="user_class_1">
+<table>
+<tr>
+<th>　</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+</tr>
+<tr>
+<td>1</td><td rowspan="2"><p id="user_id_1">영어회화</td><td>　</td><td rowspan ="2"><p id="user_id_2">자료구조및실습</td><td>　</td><td rowspan="9"><p id="user_id_9">　　공강　　</td>
+</tr>
+<tr>
+<td>2</td><td>ㅁ</td><td>　</td>
+</tr>
+<td>3</td><td rowspan="2"><p id="user_id_3">디지털 논리회로</td><td rowspan="2"><p id="user_id_2">자료구조및실습</td><td >　</td><td rowspan="2"><p id="user_id_6">인터넷 프로그래밍</td>
+<tr>
+<td>4</td><td rowspan="2"><p id="user_id_6">인터넷 프로그래밍</td>
+</tr>
+<tr>
+<td>5</td><td>　</td><td><p id="user_id_3">디지털 논리회로</td><td>　</td>
+</tr>
+<tr>
+<td>6</td><td>　</td><td>　</td><td rowspan="4"><p id="user_id_7">C++언어</td><td>　</td>
+</tr>
+<tr>
+<td>7</td><td rowspan="3"><p id="user_id_4">우주와 지구</td><td rowspan="2"><p id="user_id_5">발표와토론</td><td rowspan="2"><p id="user_id_8">캠퍼스 멘토링</td>
+</tr>
+<tr>
+<td>8</td>
+</tr>
+<tr>
+<td>9</td><td>　</td><td>　</td>
+</tr>
+
+
+</table>
+</body></html>
