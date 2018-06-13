@@ -1,4 +1,48 @@
 <!doctype html> <!-- ePortfolio.html -->
-<html><head><meta charset="utf-8"/>
-<title>ePortfolio</title>
+<html>
+<head> <meta charset = "utf-8"/>
+<meta name = "viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="../css/rwd4.css"/>
 <style>
+  * { box-sizing:border-box; padding:0; margin:0; }
+  .row::after { content:""; clear:both; display:table; } 
+  [class*="col-"] { float:left; padding:10px; }
+  section { background-color:#FAEBFF; }
+  .header, .footer { background-color:black; color:white; padding:70px; }
+  .menu li { background-color:black; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+  .menu li hover { background-color:red; }
+  .banner li { border:2px soikd black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+  .banner li img { width:30%; vertical-align:middle; }
+  ul.char { list-style:none; }
+  ul.char li:before { content:"*"; padding-right:0px; color:red; }
+  @media only screen and(max-width:768px) { [class*="col-"] {width:100%; }}
+  a:link {  color:white; background-color:transparent; text-decoration:none;}
+  a:visited {  color:white; background-color:transparent; text-decoration:none;}
+  a:hover {  color:red; background-color:transparent; text-decoration:underline;}
+  a:active {  color:white; background-color:transparent; text-decoration:none;}
+</style>
+<title>20171388 ePortfolio</title> </head>
+<body>
+  <header class="header">
+    <h2>20171397 인터넷 프로그래밍 Profile</h2>
+  </header>
+   <nav class="col-3 col-m-3 menu">
+    <ul>
+      <li><a href="ePortfolio.html">Profile</a></li>
+      <li><a href="acquire.html">Coueses</a></li>
+      <li><a href="curriculum.html">Schedule</a></li>
+      <li><a href="purpose.html">Hobby</a></li>
+      <li><a href="purpose.html">Goal</a></li>
+    </ul>
+  </nav>
+  
+  <div class="col-12 col-m-12">
+        <div class="col-2 col-m-0">
+            </div>
+            <div class="col-8 col-m-11">
+                
+                <div class="col-5 col-m-11">
+                    <font color="black">
+                        <br/><br/>
+                        <h1>실습</h1>
+                    </font>
